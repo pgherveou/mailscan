@@ -20,5 +20,4 @@ module.exports = (text) ->
 		firstname =  capitalize names[0] or mailsplit[0] or ''
 		lastname  =  capitalize names[1] or mailsplit[1] or ''
 		results.push {email, firstname, lastname}
-
 	results

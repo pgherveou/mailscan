@@ -1,7 +1,7 @@
 mailscan
 =========
 
-simple function that intent to extract emails from a text
+simple function that extract emails from a text
 Feel free to contribute!
 
 install
