@@ -1,0 +1,29 @@
+{
+  "name": "mailscan",
+  "version": "0.0.2",
+  "description": "scan and extract emails from string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pgherveou/mailscan.git"
+  },
+  "keywords": [
+    "mail",
+    "scan"
+  ],
+  "author": "PG Herveou",
+  "license": "BSD",
+
+  "scripts": {
+    "prepublish": "coffee -b --output . --compile src"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai" : "*"
+  }
+
+}
